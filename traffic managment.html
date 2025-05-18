@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traffic Management System</title>
+    <link rel="stylesheet" href="D:\WEBSITES\traffic management.css">
+</head>
+<body>
+
+<h1>Traffic Management System</h1>
+
+<div id="intersection">
+    <div class="traffic-light" id="north">
+        <div class="light red"></div>
+        <div class="light yellow"></div>
+        <div class="light green"></div>
+    </div>
+    <div class="traffic-light" id="east">
+        <div class="light red"></div>
+        <div class="light yellow"></div>
+        <div class="light green"></div>
+    </div>
+    <div class="traffic-light" id="south">
+        <div class="light red"></div>
+        <div class="light yellow"></div>
+        <div class="light green"></div>
+    </div>
+    <div class="traffic-light" id="west">
+        <div class="light red"></div>
+        <div class="light yellow"></div>
+        <div class="light green"></div>
+    </div>
+</div>
+
+<div id="controls">
+    <button id="manualBtn" onclick="setMode('manual')">Manual Mode</button>
+    <button id="autoBtn" onclick="setMode('auto')">Automatic Mode</button>
+    <button id="nextBtn" onclick="nextPhase()">Next Light (Manual)</button>
+</div>
+
+<script src="D:\WEBSITES\traffic managment.js"></script>
+</body>
+</html>
